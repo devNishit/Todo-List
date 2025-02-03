@@ -1,0 +1,76 @@
+
+H1{
+    color: rgb(75, 75, 255);
+    text-align: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(75, 75, 255);
+    padding: 5px 7px;
+    cursor: pointer;
+    
+}
+
+li{
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+#add{
+    color: black;
+    border: none;
+    outline: none;
+    height: 18px;
+    border-radius: 5px;
+    background-color: rgba(221, 216, 216, 0.712);
+    padding: 5px 7px;
+    margin-left: 40px;
+}
+
+.container li{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 10px;
+    
+    
+}
+
+.container input:checked ~ span{
+text-decoration:line-through;
+}
+
+
+.container span{
+    margin-left: 5px;
+
+
+}
+.container button{
+    color: rgba(255, 36, 36, 0.815);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 150px; 
+    
+    
+    
+}
