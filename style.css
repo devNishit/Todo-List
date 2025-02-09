@@ -69,7 +69,8 @@ text-decoration:line-through;
     background-color: transparent;
     cursor: pointer;
     position: absolute;
-    left: 150px; 
+    right: 30%; 
+    width: fit-content;
     
     
     
